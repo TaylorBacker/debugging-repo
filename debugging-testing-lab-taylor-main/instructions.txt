@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+Your boss has given you the following project to fix for a client. It's supposed
+to be a simple dice game, where the object of the game is to correctly add up
+the values of the dice for 6 consecutive turns.
+
+The issue is that a former programmer worked on it who didn't know how to debug
+effectively. It's now up to you to clean up this code and add tests.
+
+To run the program, type the following in your terminal:
+
+```shell
+python main.py
+``` 
+
+What bugs/issues did you fix in the code? List as bullet points below.
+
+Some bugs I fixed included how the die counts the values in line 19 on runner.py, where
+instead I called die.value to add the total die value instead of the amount of die as it did
+before.
+
+I fixed the throws an error call when playing the game, and instead had it exit the program file.
+
+In my third step, I correctly the lose and win counter within the game
+
+* 
+
+What tests did you add? List at least three behaviors you are checking for.
+  Example: All dice have values between 1 and 6 (inclusive).
+
+I hope that all my rounds are counted correctly.
+I hope that my game works end-to-end.
+I hope to correctly counts loses and wins and users.
